@@ -33,13 +33,33 @@ migrate_working_dir/
 .pub/
 /build/
 
-# Symbolication related
 app.*.symbols
 
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
 /android/app/debug
 /android/app/profile
 /android/app/release
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+generated_plugin_registrant.dart
+
+.vscode/
+
+*.iml
+.idea/
+*.ipr
+*.iws
+
+.DS_Store
+
+Thumbs.db
+
+*.log
+*.lock
+*.tmp
